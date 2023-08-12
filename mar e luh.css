@@ -1,0 +1,163 @@
+.logo{padding: 25px;
+    border: 2px solid rgb(119, 119, 119); 
+    display: inline-block;
+     font-size: 35px;
+    background-color: black;
+    border-radius: 15px;
+    font-family:  sans-serif; 
+    color: rgb(255, 255, 255);}
+
+.tempo{padding-left: 85px ;
+     padding-right:85;
+     border: 2px solid   red ;
+     background-color: rgb(255, 102, 102);
+     color: black;display: inline-block;
+     font-size: 19px;
+     
+     font-style:inherit;position: absolute;
+     top: 110px;
+     left:28px;
+    }
+
+.menu{position: absolute;
+    top: 5px;
+    padding: 30px;
+    border-radius: 15px;
+    right:60px;
+}
+
+.botaoM{width:150px;
+    height: 60px;
+    background-color: black;
+    margin-right: 17px;
+    border-radius: 15px;
+}
+
+.btnt{
+    color: rgb(255, 255, 255);
+    margin-left:  10px;
+    margin-top: 14px;
+    font-size:  23px;
+  
+ }
+.menu i{
+    float: left;
+    margin-top: 25px;
+    margin-left: 11px;
+}
+
+.menu div{
+    background-color: white;
+    float: left;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-left:  2px solid gray;;
+    border-top:2px solid gray;;
+border-bottom:2px solid gray; ;
+    border-radius: 3px;
+    height: 50px;
+}
+ 
+
+.pesquisa{
+    font-size: 22px;
+    border-radius: 4px;
+    width: 310px;
+    height: 55px;
+}
+.btnmenu{
+    background-color: rgb(0, 0, 0);
+    padding-left:15px;
+    padding-bottom: 25px;
+    position: absolute;
+    padding-right: 25px;
+}
+.carroussel{
+    margin-left: 4%;
+    background-color: white;
+    display: block;
+    
+}
+.seta{
+background-color: rgb(255, 255, 255);
+width: 110px;
+height: 140px;
+margin-right: 10px;
+float: left;
+border: 4px solid rgb(0, 0, 0);
+}
+.Cimg{
+    float: left;
+    width: 115px;
+    margin-right: 9px;
+    border: 2px solid white;
+    
+    padding: 10px;
+background-color: rgb(173, 173, 173);}
+
+.destaque{
+    margin-top: 10px;
+    width: 1240px;
+   height: 450px;
+  
+}
+.imgdestaque{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 270px;
+    height: 270px;
+}
+.op{
+    border-radius: 15px;
+    padding-left: 105px;
+    padding-right: 85px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 21%;
+    display: inline-block;
+    background-color: aliceblue;
+   text-align: center;
+}
+
+.opcoes{ 
+    width:150px;
+    height: 60px;
+    background-color: black;
+    margin-right: 17px;
+    color: white;
+}
+.op i{
+    float:left;
+     margin-top: 05px;
+     
+     margin-left: 10px; 
+}
+.temp{
+    font-size: 150px;
+   text-align: center;
+    color: white;
+}
+body{
+    background-image: url(icons/backgroundS.png);
+    
+    background-size: 100%;
+}
+.botaoM:hover{
+    background-color: skyblue;
+    transition-duration: 1.5s;
+
+}
+.opcoes:hover{
+    background-color: rgb(165, 165, 165);
+    color: black;
+    transition-duration: 1s;  
+}
+.seta:hover{
+   background-color: rgb(97, 97, 97);
+   transition-duration: 1s;  
+}
+.Cimg:hover{
+background-color: rgb(255, 255, 255);
+transition-duration: 1s;
+}
