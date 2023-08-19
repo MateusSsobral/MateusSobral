@@ -16,7 +16,7 @@
      
      font-style:inherit;position: absolute;
      top: 110px;
-     left:28px;
+     left:16px;
     }
 
 .menu{position: absolute;
@@ -52,9 +52,10 @@
     width: 50px;
     margin-top: 5px;
     margin-left: 5px;
-    border-left:  2px solid gray;;
-    border-top:2px solid gray;;
-border-bottom:2px solid gray; ;
+    border-left:  2px solid gray;
+    border-top:2px solid gray;
+  border-right:2px solid white;
+border-bottom:2px solid gray; 
     border-radius: 3px;
     height: 50px;
 }
@@ -74,23 +75,39 @@ border-bottom:2px solid gray; ;
     padding-right: 25px;
 }
 .carroussel{
-    margin-left: 4%;
+   
+    margin-left: 5%;
     background-color: white;
     display: block;
     
 }
-.seta{
+.setaE{
+    position: absolute;
+    top: 188px;
+    left: 0px;
 background-color: rgb(255, 255, 255);
 width: 110px;
-height: 140px;
+height: 160px;
+margin-right: 10px;
+float: left;
+border: 4px solid rgb(0, 0, 0);
+}
+.setaD{
+    position: absolute;
+    top: 188px;
+    right: -10px;
+    background-color: rgb(255, 255, 255);
+width: 110px;
+height: 160px;
 margin-right: 10px;
 float: left;
 border: 4px solid rgb(0, 0, 0);
 }
 .Cimg{
     float: left;
-    width: 115px;
-    margin-right: 9px;
+    width: 110px;
+    margin-left: 9px;
+    margin-right: 6px;
     border: 2px solid white;
     
     padding: 10px;
@@ -102,36 +119,217 @@ background-color: rgb(173, 173, 173);}
    height: 450px;
   
 }
-.imgdestaque{
+.destaque img{
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 40px;
     width: 270px;
-    height: 270px;
+    height: 390px;
 }
+.one{
+    margin-left: 15px;
+    width: 280px;
+    height: 320px;
+}
+
+.two{
+    margin-left: 15px;
+    width: 280px;
+    height: 320px;   
+}
+
+.three{
+    margin-left: 15px;
+    width: 280px;
+    height: 320px;
+}
+
+.four{
+    margin-left: 15px;
+    width: 280px;
+    height: 320px;
+    
+}
+.onem{
+    position: absolute;
+    opacity: 0;
+
+    top:369px;
+   left: 38px;
+  
+    
+    color: rgb(0, 0, 0);
+   padding-left: 19px;
+   padding-right:19px;
+   padding-top: 123px;
+   padding-bottom: 124px;
+    font-size: 20px;
+    display:inline-block;
+}
+
+.twom{
+    position: absolute;
+    opacity: 0;
+
+    top:369px;
+   left: 342px;
+  
+    
+    color: rgb(0, 0, 0);
+   padding-left: 31;
+   padding-right:32px;
+   padding-top: 123px;
+   padding-bottom: 124px;
+    font-size: 20px;
+    display:inline-block;
+}
+
+
+.threem{
+    position: absolute;
+    opacity: 0;
+
+    top:369px;
+   left: 645px;
+  
+     padding-left: 35px;
+   padding-right:36px;
+    color: rgb(0, 0, 0);
+   padding-left:11px;
+   padding-right:12px;
+   padding-top: 123px;
+   padding-bottom: 124px;
+    font-size: 20px;
+    display:inline-block;
+}
+
+.fourm{
+    position: absolute;
+    opacity: 0;
+
+    top:369px;
+   left: 950px;
+    color: rgb(0, 0, 0);
+   padding-left: 25px;
+   padding-right:24px;
+   padding-top: 124px;
+   padding-bottom: 124px;
+    font-size: 20px;
+    display:inline-block;
+}
+
 .op{
     border-radius: 15px;
     padding-left: 105px;
     padding-right: 85px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-left: 21%;
+    margin-left: 11%;
     display: inline-block;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
    text-align: center;
 }
+.fop{
+    opacity: 0;
+    width:199px;
+    height: 60px; 
+position: absolute;
+top:790px;
+left: 249px;
 
-.opcoes{ 
-    width:150px;
+}
+.fop i{ 
+    position: absolute;
+    top: 21;
+    left: 29;
+}
+.top{
+    opacity: 0;
+    width:199px;
+    height: 60px; 
+position: absolute;
+top:790px;
+left: 508px;
+}
+.top i{
+    
+    position: absolute;
+    top: 23;
+    left: 30;   
+}
+.thop{
+    opacity: 0;
+    width:199px;
+    height: 60px; 
+position: absolute;
+top:790px;
+left: 767px;
+}
+.thop i{
+    position: absolute;
+    top: 22px;
+    left: 26px;
+}
+.opcoesone{ 
+    width:200px;
     height: 60px;
-    background-color: black;
-    margin-right: 17px;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    margin-right:55px;
+    color: rgb(0, 0, 0);
+}
+.opcoesone i{
+    position: absolute;
+    left:280px;
+    top: 813px;
+}
+.opcoestwo{ 
+    width:200px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    margin-right:55px;
+    color: rgb(0, 0, 0);
+    border-color: black 2px solid;
+}
+.opcoestwo i{
+    position: absolute;
+    left:540px;
+    top:815px;
+    
+}
+.opcoesthree{ 
+    width:200px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    margin-right:55px;
+    color: rgb(0, 0, 0);
+}
+.opcoesthree i{
+    position: absolute;
+    left:795px;
+    top:813px
 }
 .op i{
     float:left;
      margin-top: 05px;
      
      margin-left: 10px; 
+}
+.fop p{
+    position: absolute;
+    top: 7;
+    left: 70px;
+    color:rgb(255, 0, 0);
+}
+.top p{
+    position: absolute;
+    top:7px;
+left:75;
+color:#00f7ff;
+}
+.thop p{
+    position: absolute;
+    top:8px;
+left: 65px;
+color: #a6ff00;
 }
 .temp{
     font-size: 150px;
@@ -143,21 +341,85 @@ body{
     
     background-size: 100%;
 }
+
+
+
+
 .botaoM:hover{
     background-color: skyblue;
     transition-duration: 1.5s;
 
 }
 .opcoes:hover{
-    background-color: rgb(165, 165, 165);
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     transition-duration: 1s;  
 }
-.seta:hover{
+.setaE:hover{
    background-color: rgb(97, 97, 97);
    transition-duration: 1s;  
 }
+.setaD:hover{
+    background-color: rgb(97, 97, 97);
+    transition-duration: 1s;  
+ }
+ 
 .Cimg:hover{
 background-color: rgb(255, 255, 255);
 transition-duration: 1s;
 }
+.onem:hover{
+    
+    position: absolute;
+    top: 399px;
+    color: white;
+     opacity: 1;
+     transition-duration: .5s;
+     background: rgb(147,72,198);
+     background: rgb(147,72,198);
+     background: linear-gradient(180deg, rgba(147,72,198,0) 0%, rgba(0,0,0,1) 39%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 59%, rgba(255,255,255,0) 100%);
+}
+.twom:hover{
+   
+    position: absolute;
+    top: 399px;
+    color: white;
+     opacity: 1;
+     transition-duration: .5s;
+     background: rgb(147,72,198);
+     background: rgb(147,72,198);
+     background: linear-gradient(180deg, rgba(147,72,198,0) 0%, rgba(0,0,0,1) 39%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 59%, rgba(255,255,255,0) 100%);}
+     .threem:hover{
+        position: absolute;
+        top: 399px;
+        color: white;
+         opacity: 1;
+         transition-duration: .5s;
+         background: rgb(147,72,198);
+         background: rgb(147,72,198);
+         background: linear-gradient(180deg, rgba(147,72,198,0) 0%, rgba(0,0,0,1) 39%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 59%, rgba(255,255,255,0) 100%);
+    }
+    .fourm:hover{
+ 
+        position: absolute;
+        top: 399px;
+        color: white;
+         opacity: 1;
+         transition-duration: .5s;
+         background: rgb(147,72,198);
+         background: rgb(147,72,198);
+         background: linear-gradient(180deg, rgba(147,72,198,0) 0%, rgba(0,0,0,1) 39%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 59%, rgba(255,255,255,0) 100%);
+    }
+    .fop:hover{
+        opacity: 1;
+ background-color: rgb(0, 0, 0);
+    }
+    .top:hover{
+        opacity: 1;
+        background-color: rgb(0, 0, 0);
+    }
+    .thop:hover{
+        opacity: 1;
+background-color: rgb(0, 0, 0);
+    }
+
